@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    /* 取消下划线 */
+    text-decoration: none;
+}
+
+html,body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 点击之后的效果 */
+.nav .actived{
+    /* color:#08c63e !important; */
+    color:#00bfff;
+    border-bottom:2px solid #00bfff;
+}
+
+.header {
+    /* 1rem=16px */
+    height: 4.4rem;
+    background-color: #00bfff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header div{
+    /* 115\50 */
+    width: 5.75rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #fff;
+}
+/* .header div:nth-child(){一样的效果} */
+.header-one{
+    /* 上右下左  顺时针 */
+    border-radius: 1.25rem 0 0 1.25rem;
+    background-color: #afe9fc;
+}
+
+.header-two{
+    border-radius: 0 1.25rem 1.25rem 0;
+    background-color: #41cfff;
+}
+
+.nav {
+    height: 3.65rem;
+    display: flex;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 0.5rem;
+    
+
+}
+.nav div{
+
+    /* width: 33.33%   一样的效果 */
+    flex: 1px;
+    text-align: center;
+    line-height: 3.65rem;
+    color: #666;
+}
+
+.content{
+    flex: 1px;
+    overflow: auto;
+}
+
+
+/* 让除了第一个list之外的其他元素都隐藏 */
+.list:nth-child(n+2){
+    display: none;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.item{
+    /* height: 375px; */
+    width: 49%;
+    /* height: 18.75rem; */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 0.5rem;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.item .photo{
+    flex: 1;
+
+}
+
+.item .wenzi{
+    /* 37  58 */
+    /* height: 2.9rem; */
+    /* text-align: center; */
+    /* line-height: 2.9rem; */
+    border: 1px solid #e5e5e5;
+
+    /* 上下左右 */
+    padding: 10px;
+
+
+}
+@media all and (max-width:320px){
+    html{
+        font-size: 10px;
+    }
+}
+
+@media all and(min-width:321px) and (max-width:375px){
+    html{
+        font-size: 12px;
+    }
+}
+@media all and(min-width:376px){
+    html{
+        font-size: 14px;
+    }
+}
+
+.footer{
+    height: 4.4rem;
+    padding:0 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #d6d6d6;
+    
+}
+.actived-btn{
+    color: #00bfff !important;
+}
+.fu{
+    width: 4rem;
+    height: 4rem;
+    border:1px solid #d6d6d6;
+    border-radius: 2.625rem;
+    position: relative;
+    bottom: 5px;
+}
+.footer .xiangji span{
+    font-size: 3rem;
+}
+/* #wenzi{
+    font-size: 0.5rem;
+} */

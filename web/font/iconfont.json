@@ -1,0 +1,72 @@
+{
+  "id": "2643363",
+  "name": "足球",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6426948",
+      "name": "图片",
+      "font_class": "tupian",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "8351852",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "15053947",
+      "name": "文章",
+      "font_class": "ic_description_file24px",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "15344286",
+      "name": "话题",
+      "font_class": "huati",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "4770024",
+      "name": "相机",
+      "font_class": "xiangji",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "19449177",
+      "name": "发现",
+      "font_class": "faxian",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "604650",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "20417624",
+      "name": "我的",
+      "font_class": "wode1",
+      "unicode": "f2a8",
+      "unicode_decimal": 62120
+    },
+    {
+      "icon_id": "19739012",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "f1a7",
+      "unicode_decimal": 61863
+    }
+  ]
+}
